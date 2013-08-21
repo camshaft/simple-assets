@@ -1,0 +1,23 @@
+{
+  "name": "simple-assets",
+  "version": "0.1.0",
+  "description": "Hash a folder and output a mapping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "assets"
+  ],
+  "author": "Cameron Bytheway <cameron@theflokk.com>",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "~3.2.6",
+    "commander": "~2.0.0",
+    "batch": "~0.5.0",
+    "envs": "~0.1.2"
+  },
+  "bin": [
+    "bin/simple-assets"
+  ]
+}
