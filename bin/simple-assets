@@ -19,7 +19,7 @@ var write = fs.writeFile;
 program
   .option('-g, --glob <pattern>', 'search a folder with a pattern', '**')
   .option('-c, --copy', 'copy the files to the hashed filename')
-  .option('-p, --prefix', 'prefix the output filename', '')
+  .option('-p, --prefix [prefix]', 'prefix the output filename', '')
   .option('-m, --mapping <file>', 'output of mapping', 'manifest.json');
 
 // parse
