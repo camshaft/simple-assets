@@ -1,6 +1,6 @@
 {
   "name": "simple-assets",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Hash a folder and output a mapping",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "keywords": [
     "assets"
   ],
-  "author": "Cameron Bytheway <cameron@theflokk.com>",
+  "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "glob": "~3.2.6",
